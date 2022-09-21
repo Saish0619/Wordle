@@ -1,2 +1,2 @@
 # Wordle
-Wordle game developed using Vanilla JS, CSS, Bootstrap and HTML5
+Wordle game developed using Vanilla JS, AJAX, CSS, Bootstrap and HTML5
