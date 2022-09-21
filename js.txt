@@ -1,0 +1,241 @@
+const word=["HAPPY"];
+let upper = [];
+let z;
+let colora;
+
+//let colora = document.getElementsByClassName('abc');
+
+function wordleEvaluate_1()
+{
+    upper=[];
+    var arr1=[];
+
+    // var arr1=[];
+    // var arr1=[];
+    //let user = new Array();
+  
+    let colorip = document.getElementsByClassName('abc1');
+    
+    //document.getElementById("sample").innerHTML = subjects;
+    
+    arr1[0]= document.getElementById("w1").value;
+    arr1[1]= document.getElementById("w2").value;
+    arr1[2]= document.getElementById("w3").value;
+    arr1[3]= document.getElementById("w4").value;
+    arr1[4]= document.getElementById("w5").value;
+
+
+    if(arr1==""){
+        alert("cannot be empty");
+    }
+    else
+    {
+        arr1.forEach(element => {
+            upper.push(element.toUpperCase());
+          });
+    }  
+
+    wordle(upper,colorip);
+
+}
+
+
+function wordleEvaluate_2()
+{
+    
+    upper=[];
+    var arr2=[];
+
+    let colorip = document.getElementsByClassName('abc2');
+
+    arr2[0]= document.getElementById("w6").value;
+    arr2[1]= document.getElementById("w7").value;
+    arr2[2]= document.getElementById("w8").value;
+    arr2[3]= document.getElementById("w9").value;
+    arr2[4]= document.getElementById("w10").value;
+
+    if(arr2==""){
+        alert("cannot be empty");
+    }
+    else
+    {
+        arr2.forEach(element => {
+            upper.push(element.toUpperCase());
+          });
+          console.log(upper);
+    }
+    wordle(upper,colorip);
+
+}
+
+function wordleEvaluate_3()
+{
+    
+    upper=[];
+    var arr2=[];
+
+    let colorip = document.getElementsByClassName('abc3');
+
+    arr2[0]= document.getElementById("w11").value;
+    arr2[1]= document.getElementById("w12").value;
+    arr2[2]= document.getElementById("w13").value;
+    arr2[3]= document.getElementById("w14").value;
+    arr2[4]= document.getElementById("w15").value;
+
+    if(arr2==""){
+        alert("cannot be empty");
+    }
+    else
+    {
+        arr2.forEach(element => {
+            upper.push(element.toUpperCase());
+          });
+          console.log(upper);
+    }
+    wordle(upper,colorip);
+
+}
+
+function wordleEvaluate_4()
+{
+    
+    upper=[];
+    var arr2=[];
+
+    let colorip = document.getElementsByClassName('abc4');
+
+    arr2[0]= document.getElementById("w16").value;
+    arr2[1]= document.getElementById("w17").value;
+    arr2[2]= document.getElementById("w18").value;
+    arr2[3]= document.getElementById("w19").value;
+    arr2[4]= document.getElementById("w20").value;
+
+    if(arr2==""){
+        alert("cannot be empty");
+    }
+    else
+    {
+        arr2.forEach(element => {
+            upper.push(element.toUpperCase());
+          });
+          console.log(upper);
+    }
+    wordle(upper,colorip);
+
+}
+
+function wordleEvaluate_5()
+{
+    
+    upper=[];
+    var arr2=[];
+
+    let colorip = document.getElementsByClassName('abc5');
+
+    arr2[0]= document.getElementById("w21").value;
+    arr2[1]= document.getElementById("w22").value;
+    arr2[2]= document.getElementById("w23").value;
+    arr2[3]= document.getElementById("w24").value;
+    arr2[4]= document.getElementById("w25").value;
+
+    if(arr2==""){
+        alert("cannot be empty");
+    }
+    else
+    {
+        arr2.forEach(element => {
+            upper.push(element.toUpperCase());
+          });
+          console.log(upper);
+    }
+    wordle(upper,colorip);
+
+}
+  
+function wordle(upper,colorip)
+{
+    colora=colorip;
+    for(let j=0;j<=4;j++)
+    {
+        if(word[0][j] == upper[j])
+        {
+            // let f=document.getElementsByTagName("input")[j].id;
+            // f.style.backgroundColor = "red";
+            // console.log(f);
+            //document.write(v);
+
+            colora[j].style.backgroundColor = "#299617";
+            
+            //alert("GREEN");
+        }
+        else if(word[0][j] != upper[j])
+        {  
+            z=1;
+            for(let i=0;i<5;i++)                        
+            {
+                if(upper[j]==word[0][i])
+                {
+                    colora[j].style.backgroundColor = "yellow";
+                    break;
+                    // alert("YELLOW");
+                }
+                else if(z==4) 
+                {    
+                    colora[j].style.backgroundColor = "#a9a9a9";                            
+                    //alert("GREY");                                 
+                }
+                z=z+1;
+            }
+        }
+            
+    }
+}    
+
+    
+
+
+    
+    // function getcolor(){
+    //     document.getElementById("wordid1").backgrounColor
+
+    // }
+
+
+
+    // let x=loop();
+    // // if(a==word[0][0])
+    // // {
+    // //     alert("Success");
+    // // }
+
+    // function loop()
+    // {
+       
+            
+    // }
+     
+        //return;
+
+
+// function checkFilled() {
+//     var inputVal = document.getElementById("subEmail").value;
+//     if (inputVal == "") {
+//         inputVal.style.backgroundColor = "yellow";
+//                 }
+// //         }   for(let i=0;i<4;i++){
+//            for(let j=0;j<4;j++){
+//             if(word[0][i] == user[0][j]){
+//                 if(i==j){
+//                 alert("GREEN");
+//                 break;
+//                 }
+//                 else{
+//                     alert("YELLOW");
+//                 }
+//             }
+//             else{
+//                 alert("GREY");
+//             }
+            
+//        }
+//     }

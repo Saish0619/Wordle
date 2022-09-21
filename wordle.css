@@ -1,0 +1,88 @@
+html body{
+    background-color: #eeeeee;
+    margin-top: 3.5em;
+}
+
+.abc1{
+    text-transform: uppercase;
+    width: 5em;
+    height: 2.7em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.abc2{
+    text-transform: uppercase;
+    width: 5em;
+    height: 2.7em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.abc3{
+    text-transform: uppercase;
+    width: 5em;
+    height: 2.7em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.abc4{
+    text-transform: uppercase;
+    width: 5em;
+    height: 2.7em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.abc5{
+    text-transform: uppercase;
+    width: 5em;
+    height: 2.7em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+body h2{
+    font-family: 'Courier New Italic';
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #002652;
+    /* border-bottom: 4px solid black;
+    border-top: 4px solid black; */
+    width: 100%;
+}
+
+.entier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10%; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    background-color: rgb(255, 234, 196);
+    /* background-color: #77fff4; */
+    border: 1px solid black;
+}
+
+.btn{
+    width: 5em;
+    height: 2em;
+    background-color: rgb(105, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 0.7em;
+    font-family: 'Lucida Sans';
+    text-decoration: solid;
+}
+
+.word1{
+    margin-bottom: 1.5em;
+}
